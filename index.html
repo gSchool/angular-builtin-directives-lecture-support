@@ -5,10 +5,24 @@
     <title>Built-in Directives</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.1/angular.min.js" charset="utf-8"></script>
     <script src="javascripts/app.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles/style.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body ng-app='myApp'>
     <div ng-controller='myController'>
-      {{this}}
+
+      <h1>ng-show and ng-hide</h1>
+      <div class="container">
+        <div class="box selected" ng-show='3 + 4 == 5'><h2>I'm hidden</h2></div>
+        <div class="box selected" ng-hide='3 + 4 == 5'><h2>I'm not hidden</h2></div>
+      </div>
+
+      <h1>ng-class examples</h1>
+      <div class="container">
+        <div class="box" ng-class='{selected: true}'><h2>1</h2></div>
+        <div class="box"><h2>2</h2></div>
+        <div class="box"><h2>3</h2></div>
+      </div>
+
     </div>
   </body>
 </html>

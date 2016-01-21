@@ -85,8 +85,6 @@ Two of the simplest Angular directives are ng-hide and ng-show. Both are used to
  - How does Angular make the DOM elements show/hide?  
  - How does ng-if work?  
  - What could the consequences be of using ng-if instead of ng-show/ng-hide?
- [ng-if vs ng-show](http://stackoverflow.com/questions/21869283/when-to-favor-ng-if-vs-ng-show-ng-hide)
-
 
 #### ng-class
 

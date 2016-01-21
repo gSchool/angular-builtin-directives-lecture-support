@@ -12,3 +12,12 @@
 .selected {
   background-color: tomato;
 }
+
+.big {
+  height: 200px;
+  width: 100px;
+}
+
+.hidden {
+  display: none;
+}

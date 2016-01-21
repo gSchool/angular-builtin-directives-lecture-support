@@ -9,14 +9,20 @@
   </head>
   <body ng-app='myApp'>
     <div ng-controller='myController'>
-
-      <h1>ng-if</h1>
-      <div class="container">
-        <div class="box"><h2>Remove me using ng-if</h2></div>
-        <div class="box"><h2>Show me using ng-if</h2></div>
-      </div>
+      <h1>ng-model</h1>
+      Enter a fruit:
+      <p>
+        <input type="text" name="name" ng-model='fruit'>
+      </p>
+      <div ng-model='fruit'><h2> {{ fruit }}</h2></div>
     </div>
 
-    <h3><a href="ngclass.html">Next</a></h3>
+    <h1>Challenge:</h1>
+    <p>
+      Make a list of fruits in your controller (array), and list them all in this view.
+      Then make an input box and button that allows you to add new fruits to the list.
+    </p>
+
+    <h3><a href="ngshow.html">Next</a></h3>
   </body>
 </html>

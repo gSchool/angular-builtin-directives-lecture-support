@@ -58,9 +58,9 @@ Here's how you can add list items using Angular's built-in directives:
 
 ### Built-in Directives
 
-Directives are Angular's way of extending HTML. Angular uses directives to add functionality to HTML elements and attributes.
+Directives are Angular's way of extending HTML. Angular uses directives to add functionality to HTML elements and attributes.  
 
-#### ng-hide, ng-show, ng-class
+#### ng-hide, ng-show
 
 Two of the simplest Angular directives are ng-hide and ng-show. Both are used to conditionally hide or show certain elements in the DOM. Here are some examples of how they work:
 
@@ -81,6 +81,14 @@ Two of the simplest Angular directives are ng-hide and ng-show. Both are used to
   3 + 4 is 7, do hide
 </div>
 ```
+
+ - How does Angular make the DOM elements show/hide?  
+ - How does ng-if work?  
+ - What could the consequences be of using ng-if instead of ng-show/ng-hide?
+ [ng-if vs ng-show](http://stackoverflow.com/questions/21869283/when-to-favor-ng-if-vs-ng-show-ng-hide)
+
+
+#### ng-class
 
 What if we want to conditionally _style_ elements on the page, rather than conditionally hiding or showing them? For this, we can use the `ng-class` directive. There are a few different ways to use `ng-class`, but one of the most common is to pass in an object of key-value pairs:
 

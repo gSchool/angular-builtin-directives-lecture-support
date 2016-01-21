@@ -83,6 +83,15 @@ Two of the simplest Angular directives are ng-hide and ng-show. Both are used to
 ```
 
  - How does Angular make the DOM elements show/hide?  
+
+#### ng-if
+
+```
+<div ng-if="3 + 4 == 7">
+  3 + 4 is 7, do show
+</div>
+```
+
  - How does ng-if work?  
  - What could the consequences be of using ng-if instead of ng-show/ng-hide?
 

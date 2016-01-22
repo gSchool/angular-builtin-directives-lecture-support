@@ -46,7 +46,7 @@ Using EJS, it's a little bit cleaner since we can keep view logic in the view:
 <% end %>
 ```
 
-There's still lots of syntax going on here.  First we have to create special tags to indicate that what we're typing is EJS. We're then using raw JavaScript to render HTML elements.  There's EJS is embedded in the HTML, and HTML embedded in the EJS, it is messy.
+There's still lots of syntax going on here.  First we have to create special tags to indicate that what we're typing is indeed EJS. We're then using raw JavaScript to render HTML elements.  There's EJS is embedded in the HTML, and HTML embedded in the EJS, it is messy.
 
 #### Angular
 

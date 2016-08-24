@@ -8,7 +8,7 @@
 
 ## Angular's Built-In Directives
 
-A directive in AngularJS is a meaningful name for a function that is attached with DOM elements. All AngularJS built in directives prefixed with the ng namespace. It is used to extend HTML elemets attribute. AngularJS directives have the ability to execute methods, define behavior, attach controllers and $scope objects, manipulate the DOM, and more.
+A directive in AngularJS is a meaningful name for functionality that is attached with, and extends, HTML DOM elements. All AngularJS built-in directives are prefixed with the ng namespace and appear as attributes on a standard HTML tag. AngularJS directives have the ability to execute methods, define behavior, attach controllers and $scope objects, manipulate the DOM, and more.
 
 ### Working with the DOM can be tedious
 

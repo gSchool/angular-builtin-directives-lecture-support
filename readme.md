@@ -4,7 +4,11 @@
 - In terminal, run: `python -m SimpleHTTPServer`
 - Navigate to `http://localhost:8000/index.html`
 
-# Lesson
+# Lesson Objectives
+
+ 1. Understand and be able to explain what an Angular directive is.
+
+ 1. Implement built-in directives in an angular app.  
 
 ## Angular's Built-In Directives
 
